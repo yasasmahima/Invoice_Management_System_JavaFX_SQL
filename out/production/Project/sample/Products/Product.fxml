@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="684.0" prefWidth="1280.0" styleClass="grid" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Products.GuiProductController">
+
+    <stylesheets>
+        <URL value="@../stye.css" />
+    </stylesheets>
+
+   <children>
+      <Label id="header" fx:id="header" layoutX="565.0" layoutY="10.0" prefHeight="46.0" prefWidth="186.0" styleClass="header" text="Products" textFill="#fff8f8">
+         <font>
+            <Font name="Berlin Sans FB" size="45.0" />
+         </font>
+      </Label>
+
+      <Button fx:id="home" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonBack" prefHeight="48.0" prefWidth="130.0" styleClass="home"></Button>
+
+      <TextField fx:id="filterFiled" layoutX="267.0" layoutY="97.0" prefHeight="34.0" prefWidth="465.0" />
+      <Button fx:id="search" layoutX="828.0" layoutY="98.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="167.0" styleClass="search" />
+
+      <TableView fx:id="tableProducts" layoutX="148.0" layoutY="199.0" prefHeight="363.0" prefWidth="983.0">
+        <columns>
+            <TableColumn styleClass="col" fx:id="prodId" prefWidth="99.19998168945312" text="ID" />
+            <TableColumn styleClass="col" fx:id="proName" prefWidth="193.59999084472656" text="Product Name" />
+            <TableColumn styleClass="col" fx:id="proDes" prefWidth="206.20001220703125" text="Product Description" />
+            <TableColumn styleClass="col" fx:id="purPrice" minWidth="0.0" prefWidth="167.5999755859375" text="Purchase Price" />
+            <TableColumn styleClass="col" fx:id="selPrice" prefWidth="161.0" text="Selling Price" />
+            <TableColumn styleClass="col" fx:id="qua" prefWidth="152.80002441406248" text="Quantity" />
+        </columns>
+      </TableView>
+
+       <Button fx:id="addProducts" layoutX="148.0" layoutY="615.0" mnemonicParsing="false" onAction="#addProducts" prefHeight="48.0" prefWidth="186.0" styleClass="addp" />
+
+       <Button fx:id="editProducts" onAction="#editProducts" layoutX="547.0" layoutY="615.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="186.0" styleClass="editp" />
+
+       <Button fx:id="deleteProducts" onAction="#deleteProducts" layoutX="944.0" layoutY="615.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="186.0" styleClass="deletep" />
+   </children>
+
+</AnchorPane>

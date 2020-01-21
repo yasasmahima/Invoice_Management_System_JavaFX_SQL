@@ -1,0 +1,89 @@
+.grid{
+-fx-background-image:url('http://www.gilolpos.kiox.in/images/aldente_home3.jpg');
+}
+
+.sucess{
+    -fx-background-image:url('https://i.pinimg.com/originals/70/a5/52/70a552e8e955049c8587b2d7606cd6a6.gif');
+    -fx-background-size: 100%;
+}
+
+.sucessDelete{
+    -fx-background-image:url('https://cdn.dribbble.com/users/2124240/screenshots/6118828/delete_icon_intraction.gif');
+    -fx-background-size: 100%;
+}
+
+.edited{
+    -fx-background-image:url('https://cdn.dribbble.com/users/928909/screenshots/6232696/completed.gif');
+    /*-fx-background-image:url('https://media1.giphy.com/media/XO2JC9Nj2YYec/source.gif');*/
+    -fx-background-size: 100%;
+}
+
+.home{
+    -fx-background-image:url('https://www.goalac.org/Content/img/buttons/menu-button.png');
+    -fx-background-size: 100%;
+}
+
+.backProduct{
+    -fx-background-image:url('http://img.impacterp.com/BackButton.jpg');
+    -fx-background-size: 100%;
+}
+
+.addData{
+    -fx-background-image:url('addD.png');
+    -fx-background-size: 100%;
+}
+
+.editData{
+    -fx-background-image:url('editdata.png');
+    -fx-background-size: 100%;
+}
+
+.search{
+    -fx-background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LBAG-dzgibbrFiXq0EAqSmwceVPMaeAeTDeJpmCpBJBJk22B&s');
+    -fx-background-size: 100%;
+}
+
+.warns{
+    -fx-background-image:url('source.gif');
+    -fx-background-size: 100%;
+}
+
+.addp{
+    -fx-background-image: url("add.png");
+    -fx-background-size: 100%;
+}
+
+.deleB{
+    -fx-background-image: url("delepr.png");
+    -fx-background-size: 100%;
+}
+
+.editp{
+    -fx-background-image: url("editPr.png");
+    -fx-background-size: 100%;
+}
+
+.deletep{
+    -fx-background-image: url("deletePr.png");
+    -fx-background-size: 100%;
+}
+
+.addCustomer{
+    -fx-background-image: url("addCustomers.png");
+    -fx-background-size: 100%;
+}
+
+.addDataCus{
+    -fx-background-image: url("addedCustomer.png");
+    -fx-background-size: 100%;
+}
+
+
+.header{
+    -fx-text-alignment: center;
+
+}
+
+.col{
+    -fx-alignment: center;
+}
