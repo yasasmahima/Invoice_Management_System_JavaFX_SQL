@@ -1,0 +1,29 @@
+CREATE TABLE Products(
+	productId varchar(20),
+	productName varchar(50),
+	productDescription varchar(100),
+	purshasePrice decimal(20,2),
+	sellingPrice decimal(20,2),
+	quantity int,
+
+	CONSTRAINT pk_productId PRIMARY KEY(productId)
+)
+
+
+
+
+CREATE TABLE Customer(
+	customerId varchar(20),
+	customerName varchar(50),
+	customerEmail varchar(50),
+	customerAddress varchar(200),
+	customerContactNo int,
+	dateOfBirth date,
+	gender varchar(10),
+
+	CONSTRAINT pk_CustomerId PRIMARY KEY(customerId)
+
+)
+
+
+

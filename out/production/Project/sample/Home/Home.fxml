@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane  alignment="center" hgap="10" styleClass="grid" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="c1" height="521.0" styleClass="cnavas" width="781.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="1.0" prefHeight="37.0" prefWidth="268.0" text="Winhe IT" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="5">
+         <font>
+            <Font name="Berlin Sans FB" size="60.0" />
+         </font>
+         <rotationAxis>
+            <Point3D x="1.0" z="1.0" />
+         </rotationAxis>
+         <GridPane.margin>
+            <Insets left="80.0" />
+         </GridPane.margin>
+      </Label>
+      <Button fx:id="products"  onAction="#buttonProducts" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="false" prefHeight="68.0" prefWidth="185.0" text="Products" textFill="#130946" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="29.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="110.0" right="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button onAction="#buttonCustomers" fx:id="customers" defaultButton="true" mnemonicParsing="false" prefHeight="67.0" prefWidth="197.0" text="Customers" textFill="#130946" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="26.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="200.0" />
+         </GridPane.margin>
+      </Button>
+      <Button defaultButton="true"  mnemonicParsing="false" prefHeight="68.0" prefWidth="193.0" text="Invoice" textFill="#130946" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="570.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="31.0" />
+         </font>
+      </Button>
+      <Label prefHeight="58.0" prefWidth="383.0" text="All Right Reserved Winhe IT | 2019" textFill="#c3bebe" GridPane.columnIndex="4" GridPane.rowIndex="7">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="390.0" />
+         </GridPane.margin>
+      </Label>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <stylesheets>
+      <URL value="@../stye.css" />
+   </stylesheets>
+
+</GridPane>

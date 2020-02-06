@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="grid" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Customers.GuiCustomersController">
+
+    <stylesheets>
+        <URL value="@../stye.css" />
+    </stylesheets>
+
+    <children>
+        <Label id="header" fx:id="header" layoutX="565.0" layoutY="10.0" prefHeight="51.0" prefWidth="199.0" styleClass="header" text="Customers" textFill="#fff8f8">
+            <font>
+                <Font name="Berlin Sans FB" size="45.0" />
+            </font>
+        </Label>
+
+        <Button fx:id="home" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonBack" prefHeight="48.0" prefWidth="130.0" styleClass="home"></Button>
+        <TextField fx:id="filterFiled" layoutX="267.0" layoutY="97.0" prefHeight="34.0" prefWidth="465.0" />
+
+        <Button fx:id="search" layoutX="828.0" layoutY="98.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="167.0" styleClass="search" />
+
+        <TableView fx:id="customerTable" layoutX="148.0" layoutY="199.0" prefHeight="363.0" prefWidth="983.0">
+            <columns>
+                <TableColumn styleClass="col" fx:id="cusId" prefWidth="99.19998168945312" text="ID" />
+                <TableColumn styleClass="col" fx:id="cusName" prefWidth="178.59996032714844" text="Customer Name" />
+                <TableColumn styleClass="col" fx:id="cusMail" prefWidth="201.60000610351562" text="Customer Email" />
+                <TableColumn styleClass="col" fx:id="address" minWidth="0.0" prefWidth="232.0" text="Address" />
+                <TableColumn styleClass="col" fx:id="contact" prefWidth="149.60003662109375" text="Contact No" />
+                <TableColumn styleClass="col" fx:id="gender" prefWidth="121.5999755859375" text="Gender" />
+             </columns>
+        </TableView>
+
+        <Button fx:id="addCustomers" layoutX="944.0" layoutY="615.0" mnemonicParsing="false" onAction="#addCustomers" prefHeight="48.0" prefWidth="186.0" styleClass="addCustomer" />
+    </children>
+
+
+</AnchorPane>
